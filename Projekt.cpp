@@ -7,7 +7,7 @@
 #include <iomanip>
 
  
-//Stupac 1,4,12 (0,3,11) -> iteratori
+
 class Measures{
 	private:
 		std::vector<double> vektor_double;
@@ -37,7 +37,7 @@ class Measures{
 				std::getline(linestream,profile_id, ',');
 				stupac1.push_back(u_q);
 				stupac4.push_back(u_d);
-				stupac12.push_back(torque);
+				stupac12.push_back(ambient);
 			}
 		}
 			void ispisNzapisaMAX(std::vector<std::string>& vektor, int n=0){
